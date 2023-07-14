@@ -1,0 +1,154 @@
+body{
+    background-color:#23252C;
+    text-align: center;
+    position: absolute;
+    border: solid #23252C 5px;
+}
+
+.box-container img{
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    width: 314px;
+    height: 317px;
+    position: absolute;
+    left: 465px;
+    top:60px; 
+}
+
+.content{
+    background:#1A1B21 ;
+    position: absolute;
+    left: 460px;
+    top: 375px;
+    height: auto;
+    width: auto;
+}
+
+.content h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-style: normal;
+}
+
+.content h2 p h4{
+    color:  #F3BF99;
+    font-family: 'Inter';
+    font-weight: 400;
+    text-align: center;
+    line-height: 15px;
+    font-size: 12.8px;
+    font-style: normal;
+}
+
+.email{
+    margin-top: 15px;
+    box-sizing: border-box;
+    display: flex;
+    background: white;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    flex-direction: row;
+    gap: 8px;
+    padding: 9px 13px 9px 11px;
+    border-radius: 6px;
+    width: 115px;
+    top: 468px;
+    margin-left: 45px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.email-2{
+    box-sizing: border-box;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 200px;
+    padding-right: 165px;
+    background:#5093E2;
+    border: 1px solid ;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 9px 13px 9px 11px;
+    border-radius: 6px;
+    width: 115px;
+    top: 468px;
+    left: 100px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+
+
+
+/*.container{
+    display: grid;
+    padding-left: 5px;
+    padding-right: 30px;
+    width: 288px;
+    text-align: center;
+} */
+
+
+
+.about{
+    font-style: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    font-weight: 400;
+    color: #DCDCDC;
+    position:relative;
+    font-family: 'Inter';
+}
+
+
+.about h2{
+    color: white;
+    font-size: 16px;
+    font-family: 'Inter';
+    line-height: 150%;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    padding-left: 38px;
+
+}
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    width: 320px;
+    height: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer i{
+    background:#918e8b;
+    height: 21px;
+    width: 23px;
+    left: 18px;
+    top: 89.75%;
+    bottom: 7.37%;
+    border-radius: 5px;
+    padding-top: 1px;
+}
+
+
+
+
+
+
